@@ -44,14 +44,14 @@ public class DataToFeature {
 	            boolean featureData = false;
 	            boolean esUnRango = false; 
 	            boolean esMultiple = false;
-	            boolean hay6=false;
+	           
 	            boolean esRangoDefinido=false;
 	            while ((data = buffReader.readLine()) != null) {
 	            	String [] dataVector = null;
 	                String [] dataVectorRango=null;
 	            	String sheetName = null;
 	                String excelFilePath = null;
-	                String excelDataRange = null;
+	               
 	                int filaSeleccionada=0;
 	                int pos=0;
 	                if (data.trim().contains("##@externaldata")) {
@@ -63,8 +63,7 @@ public class DataToFeature {
 	                    	esUnRango=true;
 	                    }
 	                    
-	                    if(dataVector.length==6)
-	                    	hay6=true;
+	                    
 	                    
 	                    if (dataVector.length == 5)
 	                    {

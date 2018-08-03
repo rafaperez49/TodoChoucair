@@ -1,7 +1,5 @@
 package myextra  ;
 
-import com4j.*;
-
 /**
  * <p>
  * Constants used by the Area.Type property
